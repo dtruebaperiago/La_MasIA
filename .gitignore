@@ -62,3 +62,12 @@ __pycache__/
 venv/
 env/
 .DS_Store
+
+# -- our pipeline -------------------------------------------------------------------------------
+# Frame-level caches derived from the match data are redistributable extracts: never commit.
+solution/cache/
+*.npz
+*.npy
+
+# VS Code "Local History" snapshots: editor copies of working files, not part of the project.
+.history/
